@@ -8,4 +8,4 @@ jobs:
    name: Scan
    uses: the-mottled-oyster/actions/.github/workflows/reusable-trivy.yml@new-trivy
    with:
-      image: 'ghcr.io/the-mottled-oyser/wordsmith-api:latest'
+      image: 'ghcr.io/the-mottled-oyster/wordsmith-api:latest'
