@@ -6,6 +6,6 @@ on:
 jobs:
  scan:
    name: Scan
-   uses: the-mottled-oyster/actions/.github/workflows/reusable-trivy.yml@new-trivy
+   uses: the-mottled-oyster/actions/.github/workflows/reusable-trivy.yml@main
    with:
       image: 'ghcr.io/the-mottled-oyster/wordsmith-api:latest'
