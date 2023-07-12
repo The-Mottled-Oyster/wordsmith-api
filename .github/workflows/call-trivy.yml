@@ -1,0 +1,11 @@
+name: Call Trivy
+on:
+ push:
+   branches: [main]
+ pull_request:
+jobs:
+ scan:
+   name: Scan
+   uses: the-mottled-oyster/actions/.github/workflows/reusable-trivy.yml@main
+   with:
+      image: 'ghcr.io/the-mottled-oyster/wordsmith-api:latest'
